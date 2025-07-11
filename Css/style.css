@@ -281,3 +281,7 @@ form label{
     text-shadow: 3px 3px #dea4e0;
     cursor: pointer;
 }
+.menu ul li a:hover{
+    font-weight: bold;
+    color: black;
+}
