@@ -23,16 +23,9 @@ body{
     border: none;
     border-radius: 10px;
 }
-.btn:hover{
-    background-color: #d383d6;
-    color: black;
-    box-shadow:  0 6px 20px 0 rgba(15, 15, 15, 0.604);
-    cursor: pointer;
-}
 
-        /* Navbar Style */
+          /* Navbar Style */
 header{
-    max-width: 1440PX;
     width: 100%;
     margin: 0 auto;
 }
@@ -41,18 +34,15 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 100px;
+    padding: 50px 120px;
 }
 nav h2{
    font-family: "Inter", sans-serif;
-   font-size: 34px;
+   font-size: 38px;
    color: #4E47FF;
    font-weight: bold;
 }
-nav h2:hover{
-    text-shadow: 2px 2px #dea4e0;
-    cursor: pointer;
-}
+
 .btn-1{
     width: 132px;
     height: 48px;
@@ -71,6 +61,7 @@ nav h2:hover{
     font-weight: bold;
     padding: 120px 150px 200px;
 }
+
 .btn-2{
     width: 174px;
     height: 48px;
@@ -186,9 +177,107 @@ nav h2:hover{
     text-align: center;
     margin-top: 20px;
   }
-  .btn-4{
-    margin: 20px 320px;
+.btn-4{
+    text-align: center;
+    margin: 20px 0;
 }
 .focus-container img{
     border-radius: 48px;
+}
+
+ /* Let’s Get in Touch section */
+
+.form-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 71px 0;
+}
+
+.form-container h1{
+    font-size: 90px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+}
+
+form input[type="text"],form input[type="email"], form textarea{
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 500px;
+    padding: 20px 32px;
+    margin-bottom: 20px;
+    border: 2px solid #D6DDED;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+form label{
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.btn-5{
+    width: 500px;
+    padding: 19px 100px;
+}
+
+  /* Footer Styles */
+
+.footer-container{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 100px 500px;
+    border-radius: 5px;
+}
+.footer-container h1{
+    font-size: 70px;
+    color: #4E47FF;
+}
+.footer-container p{
+    color: rgba(137, 135, 161, 1);
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px 50px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+}
+
+  /* footer End */
+
+     /* Hover Styles */
+
+ nav h2:hover,.banner-content:hover, .action-content h1:hover, .users-title h1:hover, .form-container h1:hover{
+    text-shadow: 3px 3px #dea4e0;
+    cursor: pointer;
+}
+.users-info h1:hover{
+    text-shadow: 3px 3px rgb(68, 193, 193);
+}
+.loved-card:hover, form input:hover, form textarea:hover{
+    box-shadow:  0 6px 20px 0 rgba(15, 15, 15, 0.604);
+}
+
+.btn:hover{
+    background-color: #d383d6;
+    color: black;
+    box-shadow:  0 6px 20px 0 rgba(15, 15, 15, 0.604);
+    cursor: pointer;
+}
+
+.footer-container h1:hover{
+    text-shadow: 3px 3px #dea4e0;
+    cursor: pointer;
 }
