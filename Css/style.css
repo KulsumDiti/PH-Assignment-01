@@ -270,6 +270,10 @@ form label{
     box-shadow:  0 6px 20px 0 rgba(15, 15, 15, 0.604);
 }
 
+.productive-users:hover{
+    box-shadow: 0 6px 20px 0 rgba(15, 15, 15, 0.604 );
+}
+
 .btn:hover{
     background-color: #d383d6;
     color: black;
