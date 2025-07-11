@@ -11,11 +11,7 @@ body{
     background-color: #f5f8ff;
 }
 
-.container{
-    max-width: 1140px;
-    width: 100%;
-    margin: 120px auto;
-}
+
 
              /* button-common style */
 .btn{
@@ -35,6 +31,12 @@ body{
 }
 
         /* Navbar Style */
+header{
+    max-width: 1440PX;
+    width: 100%;
+    margin: 0 auto;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -43,10 +45,9 @@ nav{
 }
 nav h2{
    font-family: "Inter", sans-serif;
-   font-size: 35px;
+   font-size: 34px;
    color: #4E47FF;
    font-weight: bold;
-   
 }
 nav h2:hover{
     text-shadow: 2px 2px #dea4e0;
@@ -78,15 +79,19 @@ nav h2:hover{
 
     /* See It in Action style */
 
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 120px auto;
+}
+
 .action{
     display: flex;
     justify-content: space-between;
     gap: 250px;
     align-items: center;
     font-family: "Raleway", sans-serif;
-
 }
-
 .action-content h1{
     font-size: 42px;
     font-weight: bold;
@@ -111,9 +116,9 @@ nav h2:hover{
     padding: 50px 80px;
     border-radius: 24px;
 }
-.users-title{
+.users-title h1{
     font-family: "Raleway", sans-serif;
-    font-size: 30px;
+    font-size: 45px;
     font-weight: bold;
     text-align: center;
 }
@@ -128,8 +133,62 @@ nav h2:hover{
     color: #4E47FF;
     font-size: 80px;
     font-weight: bold;
+    text-align: center;
 }
 .users-info p{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+   /* What our users say Section */
+
+.loved-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.loved-card{
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 14px;
+    font-family: "Raleway", sans-serif;
+}
+.loved-content{
+   margin: 24px 0;
+}
+.loved-content p{
+    margin: 10px 0;
+    font-weight: 500;
+}
+.loved-data{
+    display: flex;
+    gap: 20px;
+    color: #757575;
+    
+}
+.loved-data img{
+    border-radius: 100%;
+}
+ 
+  /* Ready to focus better style */
+
+  .focus-container{
+    background-color: #FFFFFF;
+    padding: 71px 150px;
+    border-radius: 14px;
+  }
+ .users-title p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-top: 20px;
+  }
+  .btn-4{
+    margin: 20px 320px;
+}
+.focus-container img{
+    border-radius: 48px;
 }
